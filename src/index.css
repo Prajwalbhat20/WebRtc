@@ -1,0 +1,62 @@
+/* General container styling */
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Full screen height */
+  background: linear-gradient(135deg, #f5f7fa, #c3cfe2); /* Light gradient background */
+}
+
+/* Input group styling */
+.input-group {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 30px rgba(0, 0, 0, 0.1); /* Soft shadow */
+}
+
+/* Input field styling */
+.input-field {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  margin-bottom: 15px;
+  font-size: 16px;
+  border: 2px solid #ddd;
+  border-radius: 5px;
+  outline: none;
+  transition: border-color 0.3s ease-in-out;
+}
+
+/* Change border color when the input is focused */
+.input-field:focus {
+  border-color: #007bff;
+}
+
+/* Button styling */
+.join-btn {
+  width: 100%;
+  max-width: 300px;
+  padding: 10px 15px;
+  font-size: 16px;
+  font-weight: bold;
+  color: white;
+  background-color: #007bff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+/* Button hover effect */
+.join-btn:hover {
+  background-color: #0056b3;
+}
+
+/* Button click effect */
+.join-btn:active {
+  background-color: #004494;
+}
